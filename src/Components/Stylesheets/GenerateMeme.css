@@ -1,0 +1,35 @@
+/*---------------Meme Template Container Styles-------------*/
+.GenerateMeme__MemeTemplateContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    justify-items: center;
+    align-content: center;
+    margin-top: 5rem;
+}
+
+.GenerateMeme__MemeTemplateContainer .GenerateMeme__MemeCard:nth-child(4) p {
+    font-size: 18px;
+}
+
+
+.MemeCard__Image {
+    border: 1px solid white;
+    box-shadow: 3px 3px 3px #888;
+    border-radius: 15px;
+}
+
+.MemeCard__Image > img {
+    border-radius: 15px;
+}
+
+.GenerateMeme__MemeCard > p {
+    text-align: center;
+}
+
+/*----------------Upload Meme Container Styles------------------*/
+
+.GenerateMeme__UploadMemeContainer {
+    text-align: center;
+}
