@@ -9,6 +9,11 @@
     margin-top: 5rem;
 }
 
+.GenerateMeme__MemeTemplateContainer > a {
+    text-decoration: none;
+    color: black;
+}
+
 .GenerateMeme__Container {
     text-align: center;
 }
@@ -26,6 +31,8 @@
 
 .MemeCard__Image > img {
     border-radius: 15px;
+    width: 180px;
+    height: 180px;
 }
 
 .GenerateMeme__MemeCard > p {
