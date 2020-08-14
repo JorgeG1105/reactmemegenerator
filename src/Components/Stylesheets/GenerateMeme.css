@@ -9,6 +9,10 @@
     margin-top: 5rem;
 }
 
+.GenerateMeme__Container {
+    text-align: center;
+}
+
 .GenerateMeme__MemeTemplateContainer .GenerateMeme__MemeCard:nth-child(4) p {
     font-size: 18px;
 }

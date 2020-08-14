@@ -12,13 +12,16 @@ class GenerateMeme extends Component {
     render(){
         return(
             <div className='GenerateMeme__Container'>
+                <h1>Choose your meme</h1>
                 <div className='GenerateMeme__MemeTemplateContainer'>
-                    <div className='GenerateMeme__MemeCard'>
-                        <div className='MemeCard__Image'>
-                            <img src={SuccessKid} alt='Success Kid'/>
-                    </div>
-                        <p>Success Kid</p>
-                    </div>
+                    <Link to='/generatechosenmeme'>
+                        <div className='GenerateMeme__MemeCard'>
+                            <div className='MemeCard__Image'>
+                                <img src={SuccessKid} alt='Success Kid'/>
+                            </div>
+                            <p>Success Kid</p>
+                        </div>
+                    </Link>
                     <div className='GenerateMeme__MemeCard'>
                         <div className='MemeCard__Image'>
                             <img src={WhatIfIToldYou} alt='What if I told you..'/>
@@ -52,7 +55,6 @@ class GenerateMeme extends Component {
                 </div>
                 <div className='GenerateMeme__UploadMemeContainer'>
                     <h2>Or..create your own!</h2>
-                    
                 </div>
             </div>
         )
