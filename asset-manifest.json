@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/reactmemegenerator/static/css/main.bd1f29b5.chunk.css",
-    "main.js": "/reactmemegenerator/static/js/main.8993a7ee.chunk.js",
-    "main.js.map": "/reactmemegenerator/static/js/main.8993a7ee.chunk.js.map",
+    "main.css": "/reactmemegenerator/static/css/main.273b1721.chunk.css",
+    "main.js": "/reactmemegenerator/static/js/main.a3c208dd.chunk.js",
+    "main.js.map": "/reactmemegenerator/static/js/main.a3c208dd.chunk.js.map",
     "runtime-main.js": "/reactmemegenerator/static/js/runtime-main.113bab40.js",
     "runtime-main.js.map": "/reactmemegenerator/static/js/runtime-main.113bab40.js.map",
-    "static/js/2.ade8453a.chunk.js": "/reactmemegenerator/static/js/2.ade8453a.chunk.js",
-    "static/js/2.ade8453a.chunk.js.map": "/reactmemegenerator/static/js/2.ade8453a.chunk.js.map",
+    "static/js/2.875a78ce.chunk.js": "/reactmemegenerator/static/js/2.875a78ce.chunk.js",
+    "static/js/2.875a78ce.chunk.js.map": "/reactmemegenerator/static/js/2.875a78ce.chunk.js.map",
     "index.html": "/reactmemegenerator/index.html",
-    "precache-manifest.eb55260031539fb7355829cc314e27bb.js": "/reactmemegenerator/precache-manifest.eb55260031539fb7355829cc314e27bb.js",
+    "precache-manifest.4aad51f60f0b5d01c5ee8a18518f6e66.js": "/reactmemegenerator/precache-manifest.4aad51f60f0b5d01c5ee8a18518f6e66.js",
     "service-worker.js": "/reactmemegenerator/service-worker.js",
-    "static/css/main.bd1f29b5.chunk.css.map": "/reactmemegenerator/static/css/main.bd1f29b5.chunk.css.map",
-    "static/js/2.ade8453a.chunk.js.LICENSE.txt": "/reactmemegenerator/static/js/2.ade8453a.chunk.js.LICENSE.txt",
-    "static/media/pepeLogo.png": "/reactmemegenerator/static/media/pepeLogo.156d774b.png",
-    "static/media/skeptical3rdworldkid.jpg": "/reactmemegenerator/static/media/skeptical3rdworldkid.16c8b296.jpg",
-    "static/media/whatifitoldyou.jpg": "/reactmemegenerator/static/media/whatifitoldyou.f4cdee64.jpg"
+    "static/css/main.273b1721.chunk.css.map": "/reactmemegenerator/static/css/main.273b1721.chunk.css.map",
+    "static/js/2.875a78ce.chunk.js.LICENSE.txt": "/reactmemegenerator/static/js/2.875a78ce.chunk.js.LICENSE.txt",
+    "static/media/pepeLogo.png": "/reactmemegenerator/static/media/pepeLogo.156d774b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.113bab40.js",
-    "static/js/2.ade8453a.chunk.js",
-    "static/css/main.bd1f29b5.chunk.css",
-    "static/js/main.8993a7ee.chunk.js"
+    "static/js/2.875a78ce.chunk.js",
+    "static/css/main.273b1721.chunk.css",
+    "static/js/main.a3c208dd.chunk.js"
   ]
 }
