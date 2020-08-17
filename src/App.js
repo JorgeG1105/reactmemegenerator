@@ -9,8 +9,10 @@ class App extends Component {
   constructor(props) {
     super(props)
     this.state={
-      allmemeImgs:[]
+      allmemeImgs:[],
+      chosenmeme: ''
     }
+    this.clickedMeme = this.clickedMeme.bind(this)
   }
 
   componentDidMount(){
@@ -22,14 +24,21 @@ class App extends Component {
     })
   }
 
+  clickedMeme(meme){
+    console.log(meme)
+    this.setState({
+      chosenmeme: meme
+    })
+}
+
   render(){
     return (
       <div className="App">
         <BrowserRouter>
           <Navigation />
           <Switch>
-            <Route path='/generatememe' render={(props) =>(<GenerateMeme {...props} allmemeImgs={this.state.allmemeImgs} />)}/>
-            <Route path='/generatechosenmeme' component={GenerateChosenMeme}/>
+            <Route path='/generatememe' render={(props) =>(<GenerateMeme {...props} allmemeImgs={this.state.allmemeImgs} clickedMeme={this.clickedMeme}/>)}/>
+            <Route path='/generatechosenmeme' render={(props) =>(<GenerateChosenMeme {...props} chosenmeme={this.state.chosenmeme}/>)}/>
           </Switch>
         </BrowserRouter>
       </div>
