@@ -1,0 +1,18 @@
+.MainPage__MemeCardContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    justify-items: center;
+    align-content: center;
+    margin-top: 5rem;
+}
+
+.MainPage__ImageContainer {
+    border: 1px solid black;
+}
+
+.MainPage__img {
+    width: 353px;
+    height: auto;
+}

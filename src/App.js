@@ -1,13 +1,14 @@
 import React,{Component} from 'react';
 import './App.css';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import MainPage from './Components/MainPage';
 import Navigation from './Components/Navigation';
 import GenerateMeme from './Components/GenerateMeme';
 import GenerateChosenMeme from './Components/GenerateChosenMeme';
 
 class App extends Component {
-  constructor(props) {
-    super(props)
+  constructor() {
+    super()
     this.state={
       allmemeImgs:[],
       chosenmeme: ''
@@ -25,11 +26,10 @@ class App extends Component {
   }
 
   clickedMeme(meme){
-    console.log(meme)
     this.setState({
       chosenmeme: meme
     })
-}
+  }
 
   render(){
     return (
@@ -37,8 +37,9 @@ class App extends Component {
         <BrowserRouter>
           <Navigation />
           <Switch>
-            <Route path='/generatememe' render={(props) =>(<GenerateMeme {...props} allmemeImgs={this.state.allmemeImgs} clickedMeme={this.clickedMeme}/>)}/>
-            <Route path='/generatechosenmeme' render={(props) =>(<GenerateChosenMeme {...props} chosenmeme={this.state.chosenmeme}/>)}/>
+            <Route exact path='/' render={() =>(<MainPage />)}></Route>
+            <Route exact path='/generatememe' render={(props) =>(<GenerateMeme {...props} allmemeImgs={this.state.allmemeImgs} clickedMeme={this.clickedMeme}/>)}></Route>
+            <Route exact path='/generatechosenmeme' render={(props) =>(<GenerateChosenMeme {...props} chosenmeme={this.state.chosenmeme}/>)}></Route>
           </Switch>
         </BrowserRouter>
       </div>

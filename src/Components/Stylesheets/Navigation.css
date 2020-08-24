@@ -3,6 +3,9 @@
     display: flex;
     border-bottom: 1px solid #D7D8D8;
     padding: 15px;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
 /*-----------------Logo Section Styles------------------*/
@@ -55,22 +58,6 @@
 }
 
 .navigation__ButtonsSection > a {
-    color: black;
-    text-decoration: none;
-    margin-right: 30px;
-    font-weight: 500;
-}
-
-/*----------------------Login Section Styles----------------------*/
-
-.navigation__LoginSection {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex: 0.4;
-}
-
-.navigation__LoginSection > a {
     color: black;
     text-decoration: none;
     margin-right: 30px;

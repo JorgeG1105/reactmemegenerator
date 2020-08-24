@@ -1,3 +1,26 @@
 .GenerateChosenMeme__Container {
     text-align: center;
 }
+
+.GenerateChosenMeme__Img {
+    width: 45%;
+    height: auto;
+}
+
+.GenerateChosenMeme__DisplayText {
+    font-family: 'impact', sans-serif;
+    color: #FFFF;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 3px;
+    font-size: 45px;
+}
+
+.GenerateChosenMeme__Input {
+    width: 50%;
+    padding: 12px 20px;
+    font-size: 20px;
+    margin: 8px 0;
+}
+
+.Draggable_container {
+}
